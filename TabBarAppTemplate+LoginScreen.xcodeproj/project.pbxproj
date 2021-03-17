@@ -3,29 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0EA22D6D260264EC00E3E2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D6C260264EC00E3E2B1 /* AppDelegate.swift */; };
 		0EA22D6F260264EC00E3E2B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D6E260264EC00E3E2B1 /* SceneDelegate.swift */; };
-		0EA22D71260264EC00E3E2B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D70260264EC00E3E2B1 /* ViewController.swift */; };
+		0EA22D71260264EC00E3E2B1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D70260264EC00E3E2B1 /* BaseViewController.swift */; };
 		0EA22D74260264EC00E3E2B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA22D72260264EC00E3E2B1 /* Main.storyboard */; };
 		0EA22D77260264EC00E3E2B1 /* TabBarAppTemplate_LoginScreen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D75260264EC00E3E2B1 /* TabBarAppTemplate_LoginScreen.xcdatamodeld */; };
 		0EA22D79260264EE00E3E2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA22D78260264EE00E3E2B1 /* Assets.xcassets */; };
 		0EA22D7C260264EE00E3E2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA22D7A260264EE00E3E2B1 /* LaunchScreen.storyboard */; };
+		0EA22D952602679800E3E2B1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D942602679800E3E2B1 /* Router.swift */; };
+		0EA22D99260267DF00E3E2B1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D98260267DF00E3E2B1 /* TabBarController.swift */; };
+		0EA22DAB26026A4400E3E2B1 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DAA26026A4400E3E2B1 /* BaseNavigationController.swift */; };
+		0EA22DAF26026D1C00E3E2B1 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DAE26026D1C00E3E2B1 /* RootNavigationController.swift */; };
+		0EA22DB226026D6100E3E2B1 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DB126026D6100E3E2B1 /* RootRouter.swift */; };
+		0EA22DB526026DC500E3E2B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DB426026DC500E3E2B1 /* HomeViewController.swift */; };
+		0EA22DB826026DD300E3E2B1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DB726026DD300E3E2B1 /* TestViewController.swift */; };
+		0EA22DBB26026E1D00E3E2B1 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DBA26026E1D00E3E2B1 /* MoreViewController.swift */; };
+		0EA22DBF26026E7A00E3E2B1 /* UIStoryBoard+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DBE26026E7A00E3E2B1 /* UIStoryBoard+Create.swift */; };
+		0EA22DC326026F0800E3E2B1 /* RootMoreNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DC226026F0800E3E2B1 /* RootMoreNavigationController.swift */; };
+		0EA22DC726026FF500E3E2B1 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA22DC626026FF500E3E2B1 /* More.storyboard */; };
+		55AD8124DABCBF3F27BACE2F /* Pods_TabBarAppTemplate_LoginScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38458124F8CCBBF044DCA428 /* Pods_TabBarAppTemplate_LoginScreen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EA22D69260264EC00E3E2B1 /* TabBarAppTemplate+LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBarAppTemplate+LoginScreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA22D6C260264EC00E3E2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA22D6E260264EC00E3E2B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0EA22D70260264EC00E3E2B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EA22D70260264EC00E3E2B1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0EA22D73260264EC00E3E2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EA22D76260264EC00E3E2B1 /* TabBarAppTemplate_LoginScreen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabBarAppTemplate_LoginScreen.xcdatamodel; sourceTree = "<group>"; };
 		0EA22D78260264EE00E3E2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EA22D7B260264EE00E3E2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA22D7D260264EE00E3E2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA22D942602679800E3E2B1 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0EA22D98260267DF00E3E2B1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0EA22DAA26026A4400E3E2B1 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0EA22DAE26026D1C00E3E2B1 /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		0EA22DB126026D6100E3E2B1 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		0EA22DB426026DC500E3E2B1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0EA22DB726026DD300E3E2B1 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		0EA22DBA26026E1D00E3E2B1 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		0EA22DBE26026E7A00E3E2B1 /* UIStoryBoard+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryBoard+Create.swift"; sourceTree = "<group>"; };
+		0EA22DC226026F0800E3E2B1 /* RootMoreNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMoreNavigationController.swift; sourceTree = "<group>"; };
+		0EA22DC626026FF500E3E2B1 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		0EA22DD6260273BD00E3E2B1 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA22DD8260273CD00E3E2B1 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38458124F8CCBBF044DCA428 /* Pods_TabBarAppTemplate_LoginScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarAppTemplate_LoginScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD766FF0762F411DE24ED85 /* Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig"; path = "Target Support Files/Pods-TabBarAppTemplate+LoginScreen/Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		D8C70A0D8B413809C0419B86 /* Pods-TabBarAppTemplate+LoginScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarAppTemplate+LoginScreen.release.xcconfig"; path = "Target Support Files/Pods-TabBarAppTemplate+LoginScreen/Pods-TabBarAppTemplate+LoginScreen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AD8124DABCBF3F27BACE2F /* Pods_TabBarAppTemplate_LoginScreen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,8 @@
 			children = (
 				0EA22D6B260264EC00E3E2B1 /* TabBarAppTemplate+LoginScreen */,
 				0EA22D6A260264EC00E3E2B1 /* Products */,
+				9320FD363430F62906372593 /* Pods */,
+				9C0C3B64D973A85D62A413AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +89,102 @@
 		0EA22D6B260264EC00E3E2B1 /* TabBarAppTemplate+LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
+				0EA22DC526026FDA00E3E2B1 /* Storyboard */,
+				0EA22DBD26026E5900E3E2B1 /* Extension */,
+				0EA22D932602677F00E3E2B1 /* Router */,
+				0EA22D91260266D100E3E2B1 /* ViewController */,
 				0EA22D6C260264EC00E3E2B1 /* AppDelegate.swift */,
 				0EA22D6E260264EC00E3E2B1 /* SceneDelegate.swift */,
-				0EA22D70260264EC00E3E2B1 /* ViewController.swift */,
-				0EA22D72260264EC00E3E2B1 /* Main.storyboard */,
 				0EA22D78260264EE00E3E2B1 /* Assets.xcassets */,
 				0EA22D7A260264EE00E3E2B1 /* LaunchScreen.storyboard */,
 				0EA22D7D260264EE00E3E2B1 /* Info.plist */,
 				0EA22D75260264EC00E3E2B1 /* TabBarAppTemplate_LoginScreen.xcdatamodeld */,
 			);
 			path = "TabBarAppTemplate+LoginScreen";
+			sourceTree = "<group>";
+		};
+		0EA22D91260266D100E3E2B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22DCA2602711300E3E2B1 /* MoreViewController */,
+				0EA22DC92602710400E3E2B1 /* HomeViewController */,
+				0EA22DA926026A0E00E3E2B1 /* NavigationController */,
+				0EA22D70260264EC00E3E2B1 /* BaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0EA22D932602677F00E3E2B1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22D942602679800E3E2B1 /* Router.swift */,
+				0EA22D98260267DF00E3E2B1 /* TabBarController.swift */,
+				0EA22DB126026D6100E3E2B1 /* RootRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0EA22DA926026A0E00E3E2B1 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22DAA26026A4400E3E2B1 /* BaseNavigationController.swift */,
+				0EA22DAE26026D1C00E3E2B1 /* RootNavigationController.swift */,
+				0EA22DC226026F0800E3E2B1 /* RootMoreNavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		0EA22DBD26026E5900E3E2B1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22DBE26026E7A00E3E2B1 /* UIStoryBoard+Create.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0EA22DC526026FDA00E3E2B1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22D72260264EC00E3E2B1 /* Main.storyboard */,
+				0EA22DC626026FF500E3E2B1 /* More.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0EA22DC92602710400E3E2B1 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22DB426026DC500E3E2B1 /* HomeViewController.swift */,
+				0EA22DB726026DD300E3E2B1 /* TestViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		0EA22DCA2602711300E3E2B1 /* MoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22DBA26026E1D00E3E2B1 /* MoreViewController.swift */,
+			);
+			path = MoreViewController;
+			sourceTree = "<group>";
+		};
+		9320FD363430F62906372593 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AD766FF0762F411DE24ED85 /* Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig */,
+				D8C70A0D8B413809C0419B86 /* Pods-TabBarAppTemplate+LoginScreen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C0C3B64D973A85D62A413AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22DD8260273CD00E3E2B1 /* RealmSwift.framework */,
+				0EA22DD6260273BD00E3E2B1 /* RxRealm.framework */,
+				38458124F8CCBBF044DCA428 /* Pods_TabBarAppTemplate_LoginScreen.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EA22D80260264EE00E3E2B1 /* Build configuration list for PBXNativeTarget "TabBarAppTemplate+LoginScreen" */;
 			buildPhases = (
+				23DBD5875E90C9DBCF8C47CE /* [CP] Check Pods Manifest.lock */,
 				0EA22D65260264EC00E3E2B1 /* Sources */,
 				0EA22D66260264EC00E3E2B1 /* Frameworks */,
 				0EA22D67260264EC00E3E2B1 /* Resources */,
+				778417B909732C9CA3D8A9FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA22D7C260264EE00E3E2B1 /* LaunchScreen.storyboard in Resources */,
+				0EA22DC726026FF500E3E2B1 /* More.storyboard in Resources */,
 				0EA22D79260264EE00E3E2B1 /* Assets.xcassets in Resources */,
 				0EA22D74260264EC00E3E2B1 /* Main.storyboard in Resources */,
 			);
@@ -135,14 +255,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23DBD5875E90C9DBCF8C47CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarAppTemplate+LoginScreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778417B909732C9CA3D8A9FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarAppTemplate+LoginScreen/Pods-TabBarAppTemplate+LoginScreen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabBarAppTemplate+LoginScreen/Pods-TabBarAppTemplate+LoginScreen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabBarAppTemplate+LoginScreen/Pods-TabBarAppTemplate+LoginScreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EA22D65260264EC00E3E2B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA22D71260264EC00E3E2B1 /* ViewController.swift in Sources */,
+				0EA22D71260264EC00E3E2B1 /* BaseViewController.swift in Sources */,
+				0EA22DAF26026D1C00E3E2B1 /* RootNavigationController.swift in Sources */,
+				0EA22DB826026DD300E3E2B1 /* TestViewController.swift in Sources */,
+				0EA22DAB26026A4400E3E2B1 /* BaseNavigationController.swift in Sources */,
 				0EA22D6D260264EC00E3E2B1 /* AppDelegate.swift in Sources */,
+				0EA22DBF26026E7A00E3E2B1 /* UIStoryBoard+Create.swift in Sources */,
+				0EA22DB226026D6100E3E2B1 /* RootRouter.swift in Sources */,
+				0EA22DB526026DC500E3E2B1 /* HomeViewController.swift in Sources */,
+				0EA22D952602679800E3E2B1 /* Router.swift in Sources */,
+				0EA22D99260267DF00E3E2B1 /* TabBarController.swift in Sources */,
+				0EA22DBB26026E1D00E3E2B1 /* MoreViewController.swift in Sources */,
 				0EA22D6F260264EC00E3E2B1 /* SceneDelegate.swift in Sources */,
+				0EA22DC326026F0800E3E2B1 /* RootMoreNavigationController.swift in Sources */,
 				0EA22D77260264EC00E3E2B1 /* TabBarAppTemplate_LoginScreen.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +459,7 @@
 		};
 		0EA22D81260264EE00E3E2B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD766FF0762F411DE24ED85 /* Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +479,7 @@
 		};
 		0EA22D82260264EE00E3E2B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C70A0D8B413809C0419B86 /* Pods-TabBarAppTemplate+LoginScreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
