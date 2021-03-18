@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3BEAEB260354A8006DADAA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3BEAEA260354A8006DADAA /* UIColorExtension.swift */; };
+		0E3BEAEE2603550B006DADAA /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3BEAED2603550B006DADAA /* UIViewExtension.swift */; };
 		0EA22D6D260264EC00E3E2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D6C260264EC00E3E2B1 /* AppDelegate.swift */; };
 		0EA22D6F260264EC00E3E2B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D6E260264EC00E3E2B1 /* SceneDelegate.swift */; };
 		0EA22D71260264EC00E3E2B1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22D70260264EC00E3E2B1 /* BaseViewController.swift */; };
@@ -25,10 +27,16 @@
 		0EA22DBF26026E7A00E3E2B1 /* UIStoryBoard+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DBE26026E7A00E3E2B1 /* UIStoryBoard+Create.swift */; };
 		0EA22DC326026F0800E3E2B1 /* RootMoreNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22DC226026F0800E3E2B1 /* RootMoreNavigationController.swift */; };
 		0EA22DC726026FF500E3E2B1 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA22DC626026FF500E3E2B1 /* More.storyboard */; };
+		0EA22E172602859F00E3E2B1 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA22E162602859F00E3E2B1 /* Login.storyboard */; };
+		0EA22E1D260287A900E3E2B1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22E1C260287A900E3E2B1 /* StartViewController.swift */; };
+		0EA22E212602886800E3E2B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22E202602886800E3E2B1 /* LoginViewController.swift */; };
+		0EA22E272602973300E3E2B1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA22E262602973300E3E2B1 /* SignInViewController.swift */; };
 		55AD8124DABCBF3F27BACE2F /* Pods_TabBarAppTemplate_LoginScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38458124F8CCBBF044DCA428 /* Pods_TabBarAppTemplate_LoginScreen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E3BEAEA260354A8006DADAA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		0E3BEAED2603550B006DADAA /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		0EA22D69260264EC00E3E2B1 /* TabBarAppTemplate+LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBarAppTemplate+LoginScreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA22D6C260264EC00E3E2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA22D6E260264EC00E3E2B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		0EA22DC626026FF500E3E2B1 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
 		0EA22DD6260273BD00E3E2B1 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA22DD8260273CD00E3E2B1 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA22E162602859F00E3E2B1 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0EA22E1C260287A900E3E2B1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		0EA22E202602886800E3E2B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0EA22E262602973300E3E2B1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		38458124F8CCBBF044DCA428 /* Pods_TabBarAppTemplate_LoginScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarAppTemplate_LoginScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD766FF0762F411DE24ED85 /* Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig"; path = "Target Support Files/Pods-TabBarAppTemplate+LoginScreen/Pods-TabBarAppTemplate+LoginScreen.debug.xcconfig"; sourceTree = "<group>"; };
 		D8C70A0D8B413809C0419B86 /* Pods-TabBarAppTemplate+LoginScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarAppTemplate+LoginScreen.release.xcconfig"; path = "Target Support Files/Pods-TabBarAppTemplate+LoginScreen/Pods-TabBarAppTemplate+LoginScreen.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,8 +118,9 @@
 		0EA22D91260266D100E3E2B1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0EA22DCA2602711300E3E2B1 /* MoreViewController */,
-				0EA22DC92602710400E3E2B1 /* HomeViewController */,
+				0EA22E1B2602877E00E3E2B1 /* Login */,
+				0EA22DCA2602711300E3E2B1 /* More */,
+				0EA22DC92602710400E3E2B1 /* Home */,
 				0EA22DA926026A0E00E3E2B1 /* NavigationController */,
 				0EA22D70260264EC00E3E2B1 /* BaseViewController.swift */,
 			);
@@ -138,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				0EA22DBE26026E7A00E3E2B1 /* UIStoryBoard+Create.swift */,
+				0E3BEAEA260354A8006DADAA /* UIColorExtension.swift */,
+				0E3BEAED2603550B006DADAA /* UIViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -147,25 +162,36 @@
 			children = (
 				0EA22D72260264EC00E3E2B1 /* Main.storyboard */,
 				0EA22DC626026FF500E3E2B1 /* More.storyboard */,
+				0EA22E162602859F00E3E2B1 /* Login.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		0EA22DC92602710400E3E2B1 /* HomeViewController */ = {
+		0EA22DC92602710400E3E2B1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				0EA22DB426026DC500E3E2B1 /* HomeViewController.swift */,
 				0EA22DB726026DD300E3E2B1 /* TestViewController.swift */,
 			);
-			path = HomeViewController;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		0EA22DCA2602711300E3E2B1 /* MoreViewController */ = {
+		0EA22DCA2602711300E3E2B1 /* More */ = {
 			isa = PBXGroup;
 			children = (
 				0EA22DBA26026E1D00E3E2B1 /* MoreViewController.swift */,
 			);
-			path = MoreViewController;
+			path = More;
+			sourceTree = "<group>";
+		};
+		0EA22E1B2602877E00E3E2B1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0EA22E1C260287A900E3E2B1 /* StartViewController.swift */,
+				0EA22E202602886800E3E2B1 /* LoginViewController.swift */,
+				0EA22E262602973300E3E2B1 /* SignInViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		9320FD363430F62906372593 /* Pods */ = {
@@ -249,6 +275,7 @@
 				0EA22D7C260264EE00E3E2B1 /* LaunchScreen.storyboard in Resources */,
 				0EA22DC726026FF500E3E2B1 /* More.storyboard in Resources */,
 				0EA22D79260264EE00E3E2B1 /* Assets.xcassets in Resources */,
+				0EA22E172602859F00E3E2B1 /* Login.storyboard in Resources */,
 				0EA22D74260264EC00E3E2B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,12 +334,17 @@
 				0EA22DB826026DD300E3E2B1 /* TestViewController.swift in Sources */,
 				0EA22DAB26026A4400E3E2B1 /* BaseNavigationController.swift in Sources */,
 				0EA22D6D260264EC00E3E2B1 /* AppDelegate.swift in Sources */,
+				0E3BEAEB260354A8006DADAA /* UIColorExtension.swift in Sources */,
+				0EA22E1D260287A900E3E2B1 /* StartViewController.swift in Sources */,
 				0EA22DBF26026E7A00E3E2B1 /* UIStoryBoard+Create.swift in Sources */,
 				0EA22DB226026D6100E3E2B1 /* RootRouter.swift in Sources */,
 				0EA22DB526026DC500E3E2B1 /* HomeViewController.swift in Sources */,
 				0EA22D952602679800E3E2B1 /* Router.swift in Sources */,
 				0EA22D99260267DF00E3E2B1 /* TabBarController.swift in Sources */,
 				0EA22DBB26026E1D00E3E2B1 /* MoreViewController.swift in Sources */,
+				0E3BEAEE2603550B006DADAA /* UIViewExtension.swift in Sources */,
+				0EA22E212602886800E3E2B1 /* LoginViewController.swift in Sources */,
+				0EA22E272602973300E3E2B1 /* SignInViewController.swift in Sources */,
 				0EA22D6F260264EC00E3E2B1 /* SceneDelegate.swift in Sources */,
 				0EA22DC326026F0800E3E2B1 /* RootMoreNavigationController.swift in Sources */,
 				0EA22D77260264EC00E3E2B1 /* TabBarAppTemplate_LoginScreen.xcdatamodeld in Sources */,
